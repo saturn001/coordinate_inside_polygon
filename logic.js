@@ -2,8 +2,6 @@ exports.checkCoordinates = (lat, lng, polygonCoordinatesArr) => {
 
     var x = lat, y = lng;
 
-    var inside = false;
-
     var intersections = 0;
 
     var ss
